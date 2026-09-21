@@ -2,7 +2,7 @@
 
 **An OpenAI-compatible API for open models, built on [Runpod Flash](https://docs.runpod.io/flash/quickstart) — so an app written against OpenAI migrates to self-hosted GPUs by changing one base URL.**
 
-Built as a working demo: playlist-visuals (a Next.js app that turns Spotify playlists into AI cover art with GPT-4o + DALL-E 3) now runs on Qwen2.5-7B + FLUX.1-schnell on Runpod Serverless — with **zero changes to its request/response handling**.
+Built as a working demo: **playlist-visuals** (my Next.js app that turns Spotify playlists into AI cover art with GPT-4o + DALL-E 3) now runs on Qwen2.5-7B + FLUX.1-schnell on Runpod Serverless — with **zero changes to its request/response handling**. The migration was a provider block in one file plus three env vars.
 
 ```
                         ┌─────────────────────────────────────────────┐
